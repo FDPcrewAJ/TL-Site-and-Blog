@@ -96,8 +96,8 @@ div {
 /* header styles */
 header {
     height: 500px;
-    background-image: url(images/turbofeul_plant_1.jpg);
-    background-size: cover;
+    background-image: url(images/MM\ logo.png);
+    background-size: contain;
     background-repeat: no-repeat;
     
 }
@@ -170,7 +170,7 @@ div figure img {
 /* Footer Styles */
 
 footer {
-    background-image: url(images/turbofeul_plant_1.jpg);
+    background-image: url(images/Tl\ logo\ Large.jpg);
     background-position: center, bottom;
     padding: 5px;
 }
