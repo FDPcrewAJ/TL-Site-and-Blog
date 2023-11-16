@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satisfactory Save and Statistics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <section>
+                <h1>TOAST LADS</h1>
+            </section>
+        </header>
+            <div>
+                <h2>Games</h2>
+                    <p class="main-text">I have roughly 80 hours on my current save, and I have unlocked everything up to the space elevator tier 3. I started in the 'Northern Forest' starting location, and will expand and build factories throughout the map as I progress more. 
+                    </p>
+                    <p class="main-text">I am currently in the middle of setting up a train network that spans across the entire map of the game. This network will be for transporting resources, power, and myself. It will be the backbone of the world going forward, meaning every major factory built in the future will be connected to the train network in some way.</p>
+                <section class="list">
+                    <h3 class="list-header">Current Projects</h3>
+                        <ul>
+                            <li>Turbofeul power plant</li>
+                            <li>World-wide train network</li>
+                            <li>Major copper/electronics factory</li>
+                            <li>Large scale power management</li>
+                        </ul>
+                    <h3 class="list-header">Future Projects</h3>
+                        <ol>
+                            <li>Destroy and Rebuild
+                                <ul>
+                                    <li>Basic materials</li>
+                                    <li>Steel production plant</li>
+                                    <li>Oil processing plant</li>
+                                    <li>Heavy Modular frame factory</li>
+                                </ul>
+                            </li>
+                            <li>Unlock and Automate
+                                <ul>
+                                    <li>Battery production/Drone transport</li>
+                                    <li>Nuclear power plant</li>
+                                    <li>Nuclear waste processing plant</li>
+                                </ul>
+                            </li>
+                        </ol>
+                </section>
+                    <figure class="map">
+                            <img src="images/map.jpg" alt="A map of my world">
+                            <figcaption>A map with markers at the locations where each of my factories are. (TEMP = temporary)</figcaption>
+                        </figure>
+                <div class="img-scrollbar">
+                    <div class="scrollbar-header">
+                        <h2></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>M/\RK3T M3T/\L Dev Blog</h2>
+                    <p class="main-text">
+                        Here are a few layouts for automating items that you will always need. It is good to get these set up a soon as you can so that the resources can start going into storage for later use.
+                    </p>
+                    <p class="main-text">    
+                        Any Input and Output values are measured in items per minute, as that is what the game uses to calculate amounts of items, ratios, and belt speeds as well. If there is no clock speed listed with the placement of a building, then it should be at 100% clockspeed. Pay attention to what level converyer belts you have unlocked, and make sure that you can transport the required number of materials on them.
+                    </p>
+                <section>
+                    <figure class="factory-layout-img">
+                        <img src="images/rforced_plates_layout.jpg" alt="Image of reinforced iron plates factory">
+                        <figcaption>Reinforced Iron Plates factory Layout</figcaption>
+                    </figure>
+                        <h3>Reinforced Iron Plates</h3>
+                            <p class="factory-layout-text">
+                                <b>Input:</b> 60 Iron Ore
+                                <br>
+                                <b>Output:</b> 5 Reinforced Iron Plates
+                            </p>
+                            <p class="factory-layout-text">
+                                <b>Phase 1:</b> 60 iron ore go into 2 smelters to produce 60 iron ingots. Merge the outputs, then set up a splitter system as shown in the image to split the belt into 2 belts - one will have 15 iron ingots and the other 45. 
+                            
+                            </p>
+                            <p class="factory-layout-text">
+                                <b>Phase 2:</b> Send the belt of 45 into 2 constructors at 75% clock speed producing iron plates. Send the other belt of 15 iron ingots into one constructor producing 15 iron rods. Send those iron rods into 2 constructors at 75% clock speed producing screws. Lastly, send the belt of screws and iron plates into an assembler producing 5 reinforced iron plates.
+                            </p>
+                </section>
+
+                <section>
+                    <figure class="factory-layout-img">
+                        <img src="images/rotor_layout.jpg" alt="Image of reinforced iron plates factory">
+                        <figcaption>Rotor factory Layout</figcaption>
+                    </figure>
+                        <h3>Rotors</h3>
+                            <p class="factory-layout-text">
+                                <b>Input:</b> 45 Iron Ore
+                                <br>
+                                <b>Output:</b> 4 Rotors
+                            </p>
+                            <p class="factory-layout-text">
+                                <b>Phase 1:</b> 45 iron ore go into 2 smelters at 75% clock speed producing iron ingots. Those iron ingots will then be split into 3 constructors to produce 45 iron rods total. 
+                            </p> 
+                            <p class="factory-layout-text">
+                                <b>Phase 2:</b> Split 25 of them off (an overflow system will work fine here) into 3 constructors at 83.333% clock speed producing 100 screws. Lastly, send the 20 iron rods and 100 screws into 1 assembler producing 4 rotors.
+                            </p>
+                </section>
+
+                <section>
+                    <figure class="factory-layout-img">
+                        <img src="images/modular_frame_layout.jpg" alt="Image of reinforced iron plates factory">
+                        <figcaption>Modular Frame factory Layout</figcaption>
+                    </figure>
+                    <h3>Modular Frames</h3>
+                        <p class="factory-layout-text">
+                            <b>Input:</b> 48 Iron ore
+                            <br>
+                            <b>Output:</b> 2 Modular Frames 
+                        </p>
+                        <p class="factory-layout-text">
+                            <b>Phase 1:</b> 48 iron ore go into 2 smelters at 80% clock speed producing iron ingots. 27 Iron ingots go to one constructor producing 18 iron plates at 90% clock speed. The other 21 iron ingots go into 2 contructors producing 21 iron rods at 70% clock speed. 
+                        </p>
+                        <p class="factory-layout-text">
+                            <b>Phase 2:</b> Send 9 rods to 1 constructor producing 36 screws at 90% clock speed. Send all screws an iron plates into one assembler producing 3 reinforced iron plates at 60% clock speed. Lastly, combine the reinforced iron plates and the remaining 12 rods from before into one assembler producing 2 modular frames.
+                        </p>
+                </section>
+            </div>
+
+        <footer>
+            <h2>Credits</h2>
+            <p>'Satisfontory' font by Nate Wren</p>
+            <p>Can be found at <a href="https://natewren.com/satisfontory/">NateWren.com</a></p>
+            <p>Liscenced under CC BY 4.0</p>
+            <p id="my-credit">All images taken by Aiden Jungels.</p>
+        </footer>
+    </body>
+</html>
