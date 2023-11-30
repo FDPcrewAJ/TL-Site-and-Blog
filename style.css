@@ -6,17 +6,17 @@
 
 /* set up variables for colors */
 :root {
-    --bg-text:#444444;
-    --alt-bg:#BF7636;
-    --alt-text:#4C7312;
-    --border:#A65746;
-    --text:#000000;
+    --bg:#737373;
+    --alt-bg:#3D3D3D;
+    --alt-text:#30BBF2;
+    --border:#A66F2D;
+    --text:#F2F2F2;
 }
 
 
 /* Generic Page Layout styles */
 body {
-    background-color: var(--bg-text);
+    background-color: var(--bg);
     color: var(--alt-bg);
     margin: 0px;
 }
@@ -37,11 +37,7 @@ h2, h3 {
     padding-bottom: 20px;
 }
 
-h3 {
-    font-size: 25px;
-}
-
-p, figcaption {
+p, figcaption, h4 {
     font-family: 'Rajdhani', sans-serif;
     color: var(--text);
     font-size: 20px;
@@ -51,13 +47,18 @@ p, figcaption {
     padding-right: 7%;
 }
 
+h4 {
+    font-family: header;
+    color: var(--alt-text);
+}
+
 figcaption {
     text-align: center;
 }
 
 .list {
     font-family: 'Rajdhani', sans-serif;
-    color: var(--bg-text);
+    color: var(--bg);
     float: left;
     clear: right;
     margin-left: 30px;
@@ -65,16 +66,16 @@ figcaption {
 
 .list-header {
     font-family: 'Rajdhani', sans-serif;
-    color: var(--bg-text);
+    color: var(--bg);
     text-align: left;
 }
 
 a:hover {
-    color: var(--alt-text);
+    color: var(--text);
 }
 
 a {
-    color: var(--alt-bg);
+    color: var(--alt-text);
 }
 
 .main-text{
@@ -98,6 +99,7 @@ div {
     margin-right: 15%;
     margin-top: 20px;
     margin-bottom: 20px;
+    overflow: auto;
 }
 
 /* header styles */
@@ -160,6 +162,7 @@ div figure img {
     margin-right: 5px;
     margin-bottom: 5px;
     margin-top: 0px;
+    max-width: 100%;
 }
 
 .factory-layout-img {
@@ -189,7 +192,7 @@ footer {
 footer p {
     color: var(--alt-bg);
     font-weight: bold;
-    background-color: var(--bg-text);
+    background-color: var(--bg);
     margin-left: 35%;
     margin-right: 35%;
     margin-top: 0px;
@@ -199,7 +202,7 @@ footer p {
 }
 
 footer h2 {
-    background-color: var(--bg-text);
+    background-color: var(--bg);
     margin-left: 35%;
     margin-right: 35%;
     padding-top: 10px;
