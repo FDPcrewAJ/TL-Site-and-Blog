@@ -60,9 +60,9 @@ a {
 }
 
 .main-text{
-    max-width: 600px;
+    max-width: 530px;
     padding: 0px;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 30px 20px;
 }
 
 /* default styles for main content sections */
@@ -119,6 +119,7 @@ header section h1 {
 
 footer {
     background-image: url(images/Tl\ logo\ Large.jpg);
+    background-size: contain;
     background-position: center, bottom;
     padding: 5px;
 }
